@@ -1,14 +1,18 @@
 {
-  "name": "@shuping.yuan/xy-cli",
-  "version": "1.0.1",
+  "name": "@shupingyuan/xy-cli",
+  "version": "1.0.6",
   "description": "校园脚手架工具",
   "main": "index.js",
   "bin": {
     "xy-cli": "./bin/xy.js"
   },
-  "scripts": {},
+  "scripts": {
+    "preinstall": "npm config set electron_mirror https://npm.taobao.org/mirrors/electron/"
+  },
   "keywords": [
-    "多环境配置"
+    "多环境配置",
+    "小程序多环境",
+    "webpack多环境"
   ],
   "author": "shuping.yuan",
   "license": "ISC",
