@@ -1,0 +1,21 @@
+{
+  "name": "xy-cli",
+  "version": "1.0.0",
+  "description": "校园脚手架工具",
+  "main": "index.js",
+  "bin": {
+    "xy-cli": "./bin/xy.js"
+  },
+  "scripts": {},
+  "keywords": [
+    "多环境配置"
+  ],
+  "author": "shuping.yuan",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^10.0.0",
+    "electron": "^20.0.0",
+    "ora": "^5.4.1"
+  }
+}
