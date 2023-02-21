@@ -1,6 +1,6 @@
 {
-  "name": "xy-cli",
-  "version": "1.0.0",
+  "name": "@shuping.yuan/xy-cli",
+  "version": "1.0.1",
   "description": "校园脚手架工具",
   "main": "index.js",
   "bin": {
@@ -17,5 +17,13 @@
     "commander": "^10.0.0",
     "electron": "^20.0.0",
     "ora": "^5.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liangmu123/xy-cli.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
